@@ -1,5 +1,5 @@
 # ProductionRecap
-Ability to pull data to create an end of the day production recap 
+Ability to pull data to create the output representations. Outputs include 'in command prompt': Total and Average, QC Count, QC Percantage, and a Chart Recap. Final output will create a `UPHperLine.csv` file in the working directory. This file contains a count of units kitted per hour per line. 
 ## Requirements
 Install the module with pip:
 ```
