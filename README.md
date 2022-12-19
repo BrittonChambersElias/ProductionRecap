@@ -18,4 +18,7 @@ python run.py
 - YYYY-MM-DD
 <img src="app_imgs/date.png" width="1100"/>
 
-# Output 
+# Output 1 - Total and Average
+<img src="app_imgs/totalAVG.png" width="1100"/>
+
+# Output 2 - 
