@@ -12,9 +12,10 @@ pip3 install pandas
 ```
 python run.py
 ```
-
 <img src="app_imgs/run.py.png" width="1100"/>
+
 # Enter Current Date 
 - YYYY-MM-DD
 <img src="app_imgs/date.png" width="1100"/>
+
 # Output 
