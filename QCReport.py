@@ -7,13 +7,13 @@ def cls():
     os.system('cls' if os.name=='nt' else 'clear')
 
 #data frames for each line
-df1 = pd.read_html('https://rfa.tile.hiveplatform.org/bc_scan_event?cell_id=tile-line1-qc&page_size=2000&offset=0')[0]
-df2 = pd.read_html('https://rfa.tile.hiveplatform.org/bc_scan_event?cell_id=tile-line2-qc&page_size=2000&offset=0')[0]
-df3 = pd.read_html('https://rfa.tile.hiveplatform.org/bc_scan_event?cell_id=tile-line3-qc&page_size=2000&offset=0')[0]
-df4 = pd.read_html('https://rfa.tile.hiveplatform.org/bc_scan_event?cell_id=tile-line4-qc&page_size=2000&offset=0')[0]
-df5 = pd.read_html('https://rfa.tile.hiveplatform.org/bc_scan_event?cell_id=tile-line5-qc&page_size=2000&offset=0')[0]
-df6 = pd.read_html('https://rfa.tile.hiveplatform.org/bc_scan_event?cell_id=tile-line6-qc&page_size=2000&offset=0')[0]
-bc = pd.read_html('https://rfa.tile.hiveplatform.org/mc_pack_event?cell_id=&page_size=25000&offset=0')[0]
+df1 = pd.read_html('*')[0]
+df2 = pd.read_html('*')[0]
+df3 = pd.read_html('*')[0]
+df4 = pd.read_html('*')[0]
+df5 = pd.read_html('*')[0]
+df6 = pd.read_html('*')[0]
+bc = pd.read_html('*')[0]
 
 #Date and Time Mask
 df1['date'] = pd.to_datetime(df1['scan_event_timestamp'], format="%Y-%m-%d %H:%M:%S")
