@@ -7,7 +7,7 @@ def cls():
 
 cls()
 
-df = pd.read_html('https://rfa.tile.hiveplatform.org/mc_pack_event?cell_id=&page_size=25000&offset=0')[0]
+df = pd.read_html('*')[0]
 
 
 df['date'] = pd.to_datetime(df['mc_pack_event_timestamp'], format="%Y-%m-%d %H:%M:%S")
